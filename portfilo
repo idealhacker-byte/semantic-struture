@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio showcasing web development skills.">
+    <title>Semantic Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>My Developer Portfolio</h1>
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" aria-labelledby="about-heading">
+            <h2 id="about-heading">About Me</h2>
+            <p>I am a passionate web developer focusing on accessible and modern web applications.</p>
+        </section>
+
+        <section id="projects" aria-labelledby="projects-heading">
+            <h2 id="projects-heading">My Projects</h2>
+            <article>
+                <h3>Web Development Capstone</h3>
+                <p>A full-stack application demonstrating modern architecture.</p>
+            </article>
+        </section>
+
+        <section id="contact" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Contact Me</h2>
+            <form action="#" method="POST" aria-label="Contact Form">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required aria-required="true">
+                
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required aria-required="true">
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required aria-required="true"></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Developer Portfolio. Built with HTML5.</p>
+    </footer>
+</body>
+</html>
