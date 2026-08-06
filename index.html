@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alex Rivera — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="grain"></div>
+
+  <header class="nav">
+    <a href="#" class="nav__logo">AR</a>
+    <nav class="nav__links">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <div class="nav__mobile" id="navMobile">
+    <a href="#work">Work</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <main>
+
+    <section class="hero">
+      <p class="hero__eyebrow">Product Designer &amp; Front-End Developer</p>
+      <h1 class="hero__title">
+        I build interfaces<br> that feel <span class="hero__accent">inevitable.</span>
+      </h1>
+      <p class="hero__sub">Hi, I'm Alex Rivera — I design and build digital products, from early sketches to shipped code. Based in Mumbai, working with teams everywhere.</p>
+      <div class="hero__actions">
+        <a href="#work" class="btn btn--primary">See my work</a>
+        <a href="#contact" class="btn btn--ghost">Get in touch</a>
+      </div>
+    </section>
+
+    <section id="work" class="work">
+      <h2 class="section__heading">Selected Work</h2>
+
+      <div class="work__grid">
+
+        <article class="card">
+          <div class="card__media" style="--tint:#EDE7DD;">
+            <span class="card__tag">Web App</span>
+          </div>
+          <h3 class="card__title">Northwind Dashboard</h3>
+          <p class="card__desc">A real-time analytics dashboard for logistics teams — built with React and D3, redesigned from a 40-tab spreadsheet workflow.</p>
+          <a href="#" class="card__link">View case study →</a>
+        </article>
+
+        <article class="card">
+          <div class="card__media" style="--tint:#E3E8E3;">
+            <span class="card__tag">Mobile</span>
+          </div>
+          <h3 class="card__title">Fernweh Travel Journal</h3>
+          <p class="card__desc">An offline-first journaling app for travelers, with map-based entries and a distraction-free writing mode.</p>
+          <a href="#" class="card__link">View case study →</a>
+        </article>
+
+        <article class="card">
+          <div class="card__media" style="--tint:#E9E1EA;">
+            <span class="card__tag">Brand &amp; Site</span>
+          </div>
+          <h3 class="card__title">Marlowe Coffee Co.</h3>
+          <p class="card__desc">Brand identity and e-commerce site for an independent roastery — packaging, type system, and storefront.</p>
+          <a href="#" class="card__link">View case study →</a>
+        </article>
+
+        <article class="card">
+          <div class="card__media" style="--tint:#E5E9EC;">
+            <span class="card__tag">Design System</span>
+          </div>
+          <h3 class="card__title">Atlas Component Library</h3>
+          <p class="card__desc">A shared component system used across six product teams — built to cut design-to-dev handoff time in half.</p>
+          <a href="#" class="card__link">View case study →</a>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <h2 class="section__heading">About</h2>
+      <div class="about__grid">
+        <p class="about__text">
+          I've spent the last seven years moving between design and code — which mostly means I've learned to argue with myself less. I care about the small details: the way a button feels when you press it, the millisecond a page takes to respond, the words that show up when something goes wrong.
+          <br><br>
+          Outside of work, I'm usually taking apart something mechanical, running slowly, or losing to my sister at chess.
+        </p>
+        <ul class="about__skills">
+          <li><span>Design</span>Figma, prototyping, design systems</li>
+          <li><span>Build</span>React, TypeScript, CSS, Node</li>
+          <li><span>Currently</span>Senior Product Designer @ Studio Loop</li>
+          <li><span>Based in</span>Mumbai, India</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2 class="section__heading">Let's work together</h2>
+      <p class="contact__text">Have a project in mind, or just want to say hi? My inbox is always open.</p>
+      <a href="mailto:hello@alexrivera.design" class="contact__email">hello@alexrivera.design</a>
+      <div class="contact__socials">
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">Twitter</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 Alex Rivera. Built with plain HTML, CSS &amp; JS.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
